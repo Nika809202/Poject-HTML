@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Interior Design Company</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="#top" class="brand">
+        <img class="brand-logo" src="./img/logo.svg" alt="Aura Boutique" />
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <ul>
+          <li><a class="nav-item active" href="#top">Home</a></li>
+          <li><a class="nav-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-item" href="#services">Services</a></li>
+          <li><a class="nav-item" href="#about">About</a></li>
+          <li><a class="nav-item" href="#contact">Contact</a></li>
+          <li><a class="nav-item" href="#contact">Free Consulation</a></li>
+        </ul>
+      </nav>
+      <a class="login" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+        </svg>
+        <span>Log In</span>
+      </a>
+      <button class="hamburger" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-overlay" id="menu-overlay" aria-hidden="true">
+    <button class="menu-close" type="button" aria-label="Close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M3 3l22 22M25 3L3 25"/>
+      </svg>
+    </button>
+    <nav class="menu-nav">
+      <ul>
+        <li><a class="menu-item active" href="#top">Home</a></li>
+        <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
+        <li><a class="menu-item" href="#services">Services</a></li>
+        <li><a class="menu-item" href="#about">About</a></li>
+        <li><a class="menu-item" href="#contact">Contact</a></li>
+        <li><a class="menu-item" href="#contact">Free Consulation</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Aura Boutique</h1>
+        <p class="hero-subtitle">Interior Design Studio</p>
+        <a class="hero-circle" href="#portfolio">Explore Our Work</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>This is the space to introduce visitors to your business or brand. Briefly explain who's behind it, what it does and what makes it unique. Share its core values and what your site has to offer</p>
+          <a class="btn-outline-dark" href="#contact">Contact</a>
+        </div>
+        <div class="about-media">
+          <img src="./img/about.jpg" alt="Interior design" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <ul class="services-list">
+          <li class="service-row">
+            <div class="service-info">
+              <h3>Free Consultation</h3>
+              <p>1 hr</p>
+            </div>
+            <a class="btn-outline-light" href="#contact">Book Now</a>
+          </li>
+          <li class="service-row">
+            <div class="service-info">
+              <h3>Conceptual Development</h3>
+              <p>1 hr · US$100</p>
+            </div>
+            <a class="btn-outline-light" href="#contact">Book Now</a>
+          </li>
+          <li class="service-row">
+            <div class="service-info">
+              <h3>Spatial Planning</h3>
+              <p>1 hr · US$100</p>
+            </div>
+            <a class="btn-outline-light" href="#contact">Book Now</a>
+          </li>
+          <li class="service-row">
+            <div class="service-info">
+              <h3>Construction Management</h3>
+              <p>1 hr · US$100</p>
+            </div>
+            <a class="btn-outline-light" href="#contact">Book Now</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <a href="#">
+              <figure>
+                <img src="./img/project-1.jpg" alt="Modern living room with a brown leather sofa, large windows, and fireplace." />
+              </figure>
+              <p class="project-number">01</p>
+              <h3>Modern Living Room</h3>
+              <p class="project-desc">This is the space to showcase your best work and demonstrate your skills through real examples of completed projects.</p>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="#">
+              <figure>
+                <img src="./img/project-2.jpg" alt="Urban loft interior" />
+              </figure>
+              <p class="project-number">02</p>
+              <h3>Urban Loft</h3>
+              <p class="project-desc">This is the space to showcase your best work and demonstrate your skills through real examples of completed projects.</p>
+            </a>
+          </article>
+          <article class="project-card">
+            <a href="#">
+              <figure>
+                <img src="./img/project-3.jpg" alt="Midtown artist condo interior" />
+              </figure>
+              <p class="project-number">03</p>
+              <h3>Midtown Artist Condo</h3>
+              <p class="project-desc">This is the space to showcase your best work and demonstrate your skills through real examples of completed projects.</p>
+            </a>
+          </article>
+        </div>
+        <div class="projects-more">
+          <a href="#">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-media">
+        <img src="./img/contact.jpg" alt="Contact" />
+      </div>
+      <div class="contact-panel">
+        <h2>Contact</h2>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="first-name">First name *</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-field">
+              <label for="last-name">Last name *</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button class="btn-outline-dark form-submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="./img/logo-footer.svg" alt="Aura Boutique" />
+        </div>
+        <div class="footer-col">
+          <h4>Address</h4>
+          <p>500 Terry Francine Street<br />San Francisco, CA 94158</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Mail: info@mysite.com<br />Phone: 123-456-7890</p>
+        </div>
+        <div class="footer-col">
+          <h4>Socials</h4>
+          <ul class="footer-socials">
+            <li><a href="https://www.facebook.com/wix">Facebook</a></li>
+            <li><a href="https://www.instagram.com/wix">Instagram</a></li>
+            <li><a href="https://www.twitter.com/wix">X</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-links">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Accessibility Statement</a></li>
+        </ul>
+        <p class="footer-copy">© 2035 by Aura Boutique. Powered and secured by <a href="https://www.wix.com/">Wix</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
