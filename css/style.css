@@ -217,7 +217,7 @@ section[id] {
 .hero h1 {
   font-family: "Crave Fine", serif;
   font-weight: 400;
-  font-size: clamp(3.4rem, 8vw, 7.5rem);
+  font-size: clamp(3.4rem, 11.5vw, 8.1rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
   color: var(--cream);
@@ -225,7 +225,7 @@ section[id] {
 
 .hero-subtitle {
   margin-top: 26px;
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  font-size: clamp(0.75rem, 1.1vw, 0.85rem);
   color: var(--cream);
 }
 
@@ -270,15 +270,15 @@ section[id] {
 }
 
 .about-text h2 {
-  font-size: 24px;
+  font-size: clamp(0.75rem, 1.1vw, 0.85rem);
   font-weight: 400;
   color: var(--dark);
-  margin-bottom: 34px;
+  margin-bottom: 40px;
 }
 
 .about-text p {
-  font-size: clamp(1.4rem, 5vw, 2.75rem);
-  line-height: 1.35;
+  font-size: clamp(1.2rem, 2.35vw, 1.65rem);
+  line-height: 1.05;
   text-align: justify;
   color: var(--dark);
   margin-bottom: 44px;
@@ -312,15 +312,11 @@ section[id] {
 .section-title {
   font-family: "Crave Fine", serif;
   font-weight: 400;
-  font-size: clamp(2.8rem, 9vw, 5rem);
-  line-height: 1.05;
+  font-size: clamp(2.8rem, 9.25vw, 6.5rem);
+  line-height: 0.85;
   letter-spacing: -0.05em;
   color: var(--cream);
-  margin-bottom: 60px;
-}
-
-.projects .section-title {
-  font-size: clamp(2.5rem, 7.5vw, 4rem);
+  margin-bottom: 70px;
 }
 
 .service-row {
@@ -337,17 +333,15 @@ section[id] {
 }
 
 .service-info h3 {
-  font-family: "Crave Fine", serif;
   font-weight: 400;
-  font-size: clamp(1.9rem, 6vw, 3rem);
-  letter-spacing: -0.02em;
+  font-size: clamp(1.3rem, 2.7vw, 1.9rem);
   color: var(--cream);
 }
 
 .service-info p {
   margin-top: 10px;
   font-size: 14px;
-  color: rgba(255, 251, 250, 0.85);
+  color: var(--cream);
 }
 
 .btn-outline-light {
@@ -383,7 +377,7 @@ section[id] {
 .project-card img {
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 137 / 100;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
@@ -393,25 +387,22 @@ section[id] {
 }
 
 .project-number {
-  margin-top: 26px;
-  font-size: 14px;
-  color: rgba(255, 251, 250, 0.6);
+  display: none;
 }
 
 .project-card h3 {
-  margin-top: 10px;
-  font-family: "Crave Fine", serif;
+  margin-top: clamp(18px, 3vw, 34px);
   font-weight: 400;
-  font-size: clamp(1.7rem, 5vw, 2.4rem);
-  letter-spacing: -0.02em;
+  font-size: clamp(1.2rem, 2.35vw, 1.65rem);
+  line-height: 1.1;
   color: var(--cream);
 }
 
 .project-desc {
-  margin-top: 16px;
-  font-size: 16px;
-  line-height: 1.65;
-  color: rgba(255, 251, 250, 0.8);
+  margin-top: 4px;
+  font-size: clamp(0.8rem, 1.16vw, 0.85rem);
+  line-height: 1.45;
+  color: var(--cream);
 }
 
 .projects-more {
@@ -501,6 +492,77 @@ section[id] {
 .form-submit:hover {
   background-color: var(--line-dark);
   color: var(--cream);
+}
+
+.page-hero {
+  background-color: var(--taupe);
+  padding-top: var(--nav-h);
+  padding-bottom: clamp(20px, 2vw, 30px);
+}
+
+.page-hero .container {
+  padding-top: clamp(40px, 4.7vw, 53px);
+  text-align: center;
+}
+
+.page-title {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(4rem, 11.5vw, 8.1rem);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  color: var(--cream);
+  margin-bottom: clamp(40px, 6.4vw, 72px);
+}
+
+.page-title.split {
+  font-size: clamp(4.5rem, 13.4vw, 9.4rem);
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin-bottom: clamp(36px, 5.4vw, 61px);
+}
+
+.services-hero .container {
+  padding-top: clamp(60px, 8.7vw, 97px);
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(24px, 2.6vw, 29px);
+  text-align: left;
+}
+
+.portfolio-gallery figure img {
+  width: 100%;
+  aspect-ratio: 137 / 100;
+  object-fit: cover;
+}
+
+.gallery-title {
+  margin-top: clamp(18px, 3.2vw, 36px);
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 1.54vw, 1.08rem);
+  line-height: 1.4;
+  color: var(--cream);
+}
+
+.gallery-desc {
+  margin-top: 2px;
+  font-size: clamp(0.8rem, 1.16vw, 0.82rem);
+  line-height: 1.4;
+  color: var(--cream);
+}
+
+.services-page-list {
+  text-align: left;
+}
+
+.services-page-list .service-info h3 {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(1.1rem, 2.14vw, 1.5rem);
 }
 
 .footer {
@@ -596,6 +658,10 @@ section[id] {
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 60px;
+  }
+
+  .portfolio-gallery {
+    grid-template-columns: 1fr;
   }
 
   .contact {
