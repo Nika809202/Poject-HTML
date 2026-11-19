@@ -1,0 +1,63 @@
+.hero {
+  min-height: calc(100vh - 104px);
+  min-height: calc(100svh - 104px);
+  padding-top: 104px;
+  background-image: linear-gradient(rgba(26, 20, 17, 0.55), rgba(26, 20, 17, 0.3)), url("../img/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.hero-content {
+  width: min(1160px, 100% - 64px);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-block: 60px 70px;
+}
+
+.hero h1 {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(3.4rem, 11.5vw, 8.1rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  color: #fffbfb;
+}
+
+.hero-subtitle {
+  margin-top: 26px;
+  font-size: clamp(0.75rem, 1.1vw, 0.85rem);
+  color: #fffbfb;
+}
+
+.hero-circle {
+  margin-top: auto;
+  align-self: center;
+  width: 261px;
+  height: 261px;
+  border: 1px solid #fffbfb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 19px;
+  color: #fffbfb;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-circle:hover {
+  background-color: #fffbfb;
+  color: #1a1411;
+}
+
+@media (min-width: 993px) {
+  .hero-circle {
+    align-self: flex-end;
+    margin-right: 56px;
+  }
+}

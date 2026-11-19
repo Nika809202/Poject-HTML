@@ -1,0 +1,70 @@
+.page-hero {
+  background-color: #5f4b44;
+  padding-top: 104px;
+  padding-bottom: clamp(20px, 2vw, 30px);
+}
+
+.page-hero .container {
+  padding-top: clamp(40px, 4.7vw, 53px);
+  text-align: center;
+}
+
+.page-title {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(4rem, 11.5vw, 8.1rem);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  color: #fffbfb;
+  margin-bottom: clamp(40px, 6.4vw, 72px);
+}
+
+.page-title.split {
+  font-size: clamp(4.5rem, 13.4vw, 9.4rem);
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin-bottom: clamp(36px, 5.4vw, 61px);
+}
+
+.services-hero .container {
+  padding-top: clamp(60px, 8.7vw, 97px);
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(24px, 2.6vw, 29px);
+  text-align: left;
+}
+
+.portfolio-gallery figure img {
+  width: 100%;
+  aspect-ratio: 137 / 100;
+  object-fit: cover;
+}
+
+.gallery-title {
+  margin-top: clamp(18px, 3.2vw, 36px);
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 1.54vw, 1.08rem);
+  line-height: 1.4;
+  color: #fffbfb;
+}
+
+.gallery-desc {
+  margin-top: 2px;
+  font-size: clamp(0.8rem, 1.16vw, 0.82rem);
+  line-height: 1.4;
+  color: #fffbfb;
+}
+
+.services-page-list {
+  text-align: left;
+}
+
+.services-page-list .service-info h3 {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(1.1rem, 2.14vw, 1.5rem);
+}

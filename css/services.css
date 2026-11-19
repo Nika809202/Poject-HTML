@@ -1,0 +1,54 @@
+.services {
+  background-color: #5f4b44;
+  padding-block: 110px;
+}
+
+.section-title {
+  font-family: "Crave Fine", serif;
+  font-weight: 400;
+  font-size: clamp(2.8rem, 9.25vw, 6.5rem);
+  line-height: 0.85;
+  letter-spacing: -0.05em;
+  color: #fffbfb;
+  margin-bottom: 70px;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding-block: 30px;
+  border-top: 1px solid rgba(255, 251, 250, 0.35);
+}
+
+.service-row:last-child {
+  border-bottom: 1px solid rgba(255, 251, 250, 0.35);
+}
+
+.service-info h3 {
+  font-weight: 400;
+  font-size: clamp(1.3rem, 2.7vw, 1.9rem);
+  color: #fffbfb;
+}
+
+.service-info p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fffbfb;
+}
+
+.btn-outline-light {
+  display: inline-block;
+  flex-shrink: 0;
+  border: 1px solid #fffbfb;
+  color: #fffbfb;
+  font-size: 14px;
+  padding: 11px 34px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #fffbfb;
+  color: #5f4b44;
+}
