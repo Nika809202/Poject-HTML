@@ -1,0 +1,88 @@
+.password-wrap {
+  position: relative;
+}
+
+.password-wrap input {
+  padding-right: 64px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: #5f4b44;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.25s ease;
+}
+
+.toggle-password:hover {
+  opacity: 0.6;
+}
+
+.form-error {
+  min-height: 18px;
+  margin-top: 6px;
+  font-size: 13px;
+  color: #9b2c2c;
+}
+
+.form-field.invalid input,
+.form-field.invalid select,
+.form-field.invalid textarea {
+  border-bottom-color: #9b2c2c;
+}
+
+.form-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 34px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.form-check input {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  accent-color: #5f4b44;
+}
+
+.form-check.invalid {
+  color: #9b2c2c;
+}
+
+.form-status {
+  margin-top: 22px;
+  min-height: 22px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.form-status.success {
+  color: #2f5d3a;
+}
+
+.form-status.error {
+  color: #9b2c2c;
+}
+
+.form-note {
+  margin-top: 34px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form-note a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.25s ease;
+}
+
+.form-note a:hover {
+  opacity: 0.6;
+}
